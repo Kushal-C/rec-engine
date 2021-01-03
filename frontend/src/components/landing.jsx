@@ -1,4 +1,7 @@
 import React from 'react';
+import image_1 from '../images/image_1.jpg';
+import image_2 from '../images/image_2.jpg';
+import image_3 from '../images/image_3.jpg';
 
 function Landing() {
     return (
@@ -12,9 +15,11 @@ function Landing() {
                 <button id="oauth-btn" className="btn btn__landing" style={{"backgroundColor": "#FF6B00"}}> Signup with Google</button>
                 <button className="btn btn__landing" style={{"backgroundColor": "#0085FF"}}> Signup with Facebook</button>
             </div>
-            <div className="container__column container__landing">
+            <div className="container__column container__landing card_container__landing">
                 <ul>
-                    <li className="card"></li>
+                    <li className="card"><img src={image_3} alt="shoe"/></li>
+                    <li className="card"><img src={image_2} alt="shoe"/></li>
+                    <li className="card"><img src={image_1} alt="shoe"/></li>
                 </ul>
             </div>
             
