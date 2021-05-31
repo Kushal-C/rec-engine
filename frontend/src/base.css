@@ -143,6 +143,14 @@ img {
   margin-bottom: 10px;
 }
 
+.btn__landing__facebook {
+  background-color: #0085ff;
+}
+
+.btn__landing__google {
+  background-color: #ff6b00;
+}
+
 .card {
   width: 50vh;
   height: 50vh;
